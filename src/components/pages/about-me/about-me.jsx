@@ -14,7 +14,7 @@ function About() {
 
 
   return (
-    <div className="text-white my-60 responsive" id="about" data-aos="fade-left">
+    <div className="text-white my-60 responsive" id="about" data-aos="fade-up">
       <div className="flex justify-center text-white text-3xl">
         <h1>Sobre mim</h1>
       </div>

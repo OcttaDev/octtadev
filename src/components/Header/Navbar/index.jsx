@@ -38,7 +38,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#about" className="nav-link">
                 <span>
                   <i className="fas fa-address-card"></i>
                 </span>
@@ -47,7 +47,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#projects" className="nav-link">
                 <span>
                   <i className="fas fa-briefcase"></i>
                 </span>
@@ -56,7 +56,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#services" className="nav-link">
                 <span>
                   <i className="fas fa-blog"></i>
                 </span>
@@ -65,7 +65,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-link text-small">
+              <a href="#skills" className="nav-link text-small">
                 <span>
                   <i className="fas fa-envelope"></i>
                 </span>

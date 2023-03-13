@@ -3,7 +3,7 @@ import { IoLogoHtml5,IoLogoCss3,IoLogoJavascript, IoLogoReact, IoLogoFirebase } 
 
 function Skills(){
     return(
-        <div className="flex flex-col justify-center items-center gap-10 text-white my-40">
+        <div className="flex flex-col justify-center items-center gap-10 text-white my-40" id="skills">
             <h1 className="text-white text-3xl">Skill</h1>
             <div className="flex justify-center gap-10 responsive">
                 <Skill icon={<IoLogoHtml5 size={40}/>}/>

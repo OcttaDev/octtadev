@@ -11,16 +11,16 @@ function Header() {
         <div>
           <ul className="flex text-white  list-none">
               <li className="mr-10">
-                  <a href="#">Sobre mim</a>
+                  <a href="#about">Sobre mim</a>
               </li>
               <li className="mr-10">
-                  <a href="#">Projetos</a>
+                  <a href="#projects">Projetos</a>
               </li>
               <li className="mr-10">
-                  <a href="#">Serviços</a>
+                  <a href="#services">Serviços</a>
               </li>
               <li>
-                  <a href="#">Minhas Skills</a>
+                  <a href="#skills">Minhas Skills</a>
               </li>
           </ul>
         </div>

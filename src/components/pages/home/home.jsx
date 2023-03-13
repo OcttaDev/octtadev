@@ -34,7 +34,7 @@ function Home() {
           </a>
         </div>
       </div>
-      <div data-aos="fade-right">
+      <div data-aos="flip-up">
         <img src={Avatar} alt="" className="w-60 rounded-full" />
       </div>
     </div>

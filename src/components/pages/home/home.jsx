@@ -16,7 +16,7 @@ function Home() {
 
       data-aos="fade-up"
     >
-      <div className="text-white" data-aos="flip-left">
+      <div className="text-white" data-aos="flip-right">
         <h1 className="text-white text-3xl">Olá eu sou o Otávio :)</h1>
         <p className="text-[#828282]">Desenvolvedor Front-End</p>
         <div className="flex gap-2">

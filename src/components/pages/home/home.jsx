@@ -1,15 +1,22 @@
-import '../../../responsive.css'
-import Avatar from '../../../assets/perfil.jpg'
+import "../../../responsive.css";
+import Avatar from "../../../assets/perfil.jpg";
+import { useEffect } from "react";
 
-
-
-
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Home() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="flex justify-around items-center my-28 responsive" id='home'>
-      <div className="text-white">
+    <div
+      className="flex justify-around items-center my-28 responsive"
+      id="home"
+
+      data-aos="fade-up"
+    >
+      <div className="text-white" data-aos="flip-left">
         <h1 className="text-white text-3xl">Olá eu sou o Otávio :)</h1>
         <p className="text-[#828282]">Desenvolvedor Front-End</p>
         <div className="flex gap-2">
@@ -27,8 +34,8 @@ function Home() {
           </a>
         </div>
       </div>
-      <div>
-        <img src={Avatar} alt="" className='w-60 rounded-full'/>
+      <div data-aos="fade-right">
+        <img src={Avatar} alt="" className="w-60 rounded-full" />
       </div>
     </div>
   );

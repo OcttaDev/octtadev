@@ -1,14 +1,24 @@
+import { useEffect } from "react";
 import { BsEmojiSmile } from "react-icons/bs";
 import { IoMailUnreadOutline, IoLogoInstagram, IoCallOutline } from "react-icons/io5";
 import "../../../responsive.css"
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function About() {
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
+
   return (
-    <div className="text-white my-60 responsive" id="about">
+    <div className="text-white my-60 responsive" id="about" data-aos="fade-left">
       <div className="flex justify-center text-white text-3xl">
         <h1>Sobre mim</h1>
       </div>
-      <div className="flex justify-center max-w-[700px] m-auto mt-10 text-center">
+      <div className="flex justify-center max-w-[700px] m-auto mt-10 text-center" data-aos="flip-up">
         <span className="max-w-[600px] p-1">
           Olá, eu me chamo Otávio e sou desenvolvedor ainda em formação, porém
           já tive experiências ao longo destes anos em que eu escolhi minha
@@ -20,7 +30,7 @@ function About() {
 
       <div className="flex justify-center max-w-[800px] m-auto gap-5 my-10 info">
 
-        <div className="flex justify-evenly gap-10">
+        <div className="flex justify-evenly gap-10" data-aos="flip-left">
             <div className="flex  flex-col items-center justifyi-center gap-1">
                 <i className="flex items-center justify-center w-10 h-10 rounded-full bg-[#333333] text-[#00DF5E] p-2">
                   <BsEmojiSmile size={30} />
@@ -37,7 +47,7 @@ function About() {
             </div>
         </div>
 
-        <div className="flex justify-evenly gap-10">
+        <div className="flex justify-evenly gap-10" data-aos="flip-right">
             <div className="flex  flex-col items-center justifyi-center gap-1 ml-1 mr-1">
                 <i className="flex items-center justify-center w-10 h-10 rounded-full bg-[#333333] text-[#00DF5E] p-2">
                   <IoLogoInstagram size={30} />

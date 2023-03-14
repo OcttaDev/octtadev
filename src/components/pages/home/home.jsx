@@ -21,10 +21,10 @@ function Home() {
         <p className="text-[#828282]">Desenvolvedor Front-End</p>
         <div className="flex gap-2">
           <a
-            href="#"
+            href="https://github.com/OcttaDev" target="_blank"
             className="flex items-center cursor-pointer text-black font-bold my-10 justify-center h-10 w-40 bg-[#00DF5E]"
           >
-            Download CV
+            Github
           </a>
           <a
             href="#"

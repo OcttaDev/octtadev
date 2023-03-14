@@ -22,7 +22,7 @@ function Home() {
         <div className="flex gap-2">
           <a
             href="https://github.com/OcttaDev" target="_blank"
-            className="flex items-center cursor-pointer text-black font-bold my-10 justify-center h-10 w-40 bg-[#00DF5E]"
+            className="flex items-center  text-black font-bold my-10 justify-center h-10 w-40 bg-[#00DF5E]"
           >
             Github
           </a>

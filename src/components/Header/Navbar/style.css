@@ -1,5 +1,5 @@
 .hamburguer{
-    position: absolute;
+    position: fixed;
     top: 24px;
     right: 1rem;
     z-index: 9999;

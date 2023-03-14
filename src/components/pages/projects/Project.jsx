@@ -1,9 +1,14 @@
-function Project({ titulo, tecnologias }) {
+import { IoLogoGithub } from "react-icons/io5";
+
+function Project({logo, titulo, tecnologias, link }) {
   return (
     <div>
       <div className="flex flex-col justify-center items-center bg-[#333333] w-80 h-60 text-white gap-1 rounded-sm">
-        <img src="" alt="" className="bg-white w-4/5 h-3/5" />
-        <h1 className="text-lg">{titulo}</h1>
+        <img src={logo} alt="" className="bg-white w-4/5 h-3/5 rounded-sm" /> 
+        <div className=" flex items-center gap-2">
+          <a href="https://github.com/OcttaDev" target="_blank"><IoLogoGithub/></a>
+          <h1 className="text-lg"><a href={link} target="_blank" >{titulo}</a></h1>
+        </div>
         <div className="flex gap-2">
           <p className="text-green-400 ">{tecnologias[0]}</p>
           <p className="text-green-400 ">{tecnologias[1]}</p>

@@ -16,7 +16,7 @@ module.exports = {
         'text-gray': '#828282',
         'bg-button':"#00DF5E",
         "border":"#333333",
-      },
+      }
     },
   },
   plugins: [],

@@ -13,7 +13,6 @@ function Home() {
     <div
       className="flex justify-around items-center my-28 responsive"
       id="home"
-
       data-aos="fade-up"
     >
       <div className="text-white" data-aos="flip-right">
@@ -21,7 +20,8 @@ function Home() {
         <p className="text-[#828282]">Desenvolvedor Front-End</p>
         <div className="flex gap-2">
           <a
-            href="https://github.com/OcttaDev" target="_blank"
+            href="https://github.com/OcttaDev"
+            target="_blank"
             className="flex items-center  text-black font-bold my-10 justify-center h-10 w-40 bg-[#00DF5E]"
           >
             Github

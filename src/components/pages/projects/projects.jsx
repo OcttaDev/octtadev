@@ -18,7 +18,7 @@ function Projects() {
     <div className="flex flex-col items-center justify-center gap-4 my-40 responsive" id="projects" data-aos="fade-up">
         <h1 className="text-white text-3xl">Projetos</h1>
       <div className="flex gap-5 responsive" data-aos="flip-down">
-        <Project logo={ClinicaLogo} titulo="Clinica" tecnologias={["React-js", "Tailwind", "Api"]} link="https://monumental-haupia-190f15.netlify.app/" />
+        <Project logo={ClinicaLogo} titulo="Clinica" tecnologias={["React-js", "Tailwind", "Api"]} link="https://github.com/OcttaDev/clinica-stj" />
         <Project titulo="Projeto" tecnologias={["html", "css", "js"]} />
         <Project titulo="Projeto" tecnologias={["html", "css", "js"]} />
       </div>

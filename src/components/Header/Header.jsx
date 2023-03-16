@@ -1,5 +1,5 @@
-import NavBar from './Navbar/index'
 import '../../responsive.css'
+
 
 function Header() {
   return (
@@ -24,11 +24,11 @@ function Header() {
               </li>
           </ul>
         </div>
-      
+       
       </div>
-      <div id='navbar'>
-        <NavBar/>
-      </div>
+      <div id='sidebar'>
+          
+        </div>
     </div>
   );
 }

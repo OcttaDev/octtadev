@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { BsEmojiSmile } from "react-icons/bs";
 import { IoMailUnreadOutline, IoLogoInstagram, IoCallOutline } from "react-icons/io5";
-import "../../../responsive.css"
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,7 +14,7 @@ function About() {
 
 
   return (
-    <div className="text-white my-60 responsive" id="about" data-aos="fade-up">
+    <div className="text-white my-20 flex-wrap" id="about" data-aos="fade-up">
       <div className="flex justify-center text-white text-3xl">
         <h1>Sobre mim</h1>
       </div>

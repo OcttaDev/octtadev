@@ -1,4 +1,3 @@
-import "../../../responsive.css";
 import Avatar from "../../../assets/perfil.jpg";
 import { useEffect } from "react";
 
@@ -14,7 +13,7 @@ function Home() {
   return (
     <div className="flex flex-col">
       <div
-        className="flex justify-around items-center my-40  responsive"
+        className="flex justify-around items-center my-40 flex-wrap"
         id="home"
         data-aos="fade-up"
       >

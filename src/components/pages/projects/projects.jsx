@@ -1,5 +1,4 @@
 import Project from "./Project";
-import "../../../responsive.css";
 
 import ClinicaLogo from "../../../assets/logos/clinica.png";
 import LoginLogo from "../../../assets/logos/loginpage.png";
@@ -17,12 +16,12 @@ function Projects() {
 
   return (
     <div
-      className="flex flex-col items-center justify-center gap-4 my-40 responsive"
+      className="flex flex-col items-center justify-center gap-4 my-20"
       id="projects"
       data-aos="fade-up"
     >
       <h1 className="text-white text-3xl">Projetos</h1>
-      <div className="flex items-center justify-center gap-5 flex-wrap responsive" >
+      <div className="flex items-center justify-center gap-5 flex-wrap " >
         <Project
           logo={ClinicaLogo}
           titulo="Clinica"

@@ -18,7 +18,7 @@ function About() {
       <div className="flex justify-center text-white text-3xl">
         <h1>Sobre mim</h1>
       </div>
-      <div className="flex justify-center max-w-[700px] m-auto mt-10 text-center" data-aos="flip-up">
+      <div className="flex justify-center max-w-[700px] m-auto mt-10 text-center">
         <span className="max-w-[550px]">
           Olá, eu me chamo Otávio e sou desenvolvedor ainda em formação, porém
           já tive experiências ao longo destes anos em que eu escolhi minha

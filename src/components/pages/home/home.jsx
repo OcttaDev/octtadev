@@ -30,7 +30,8 @@ function Home() {
               Github
             </a>
             <a
-              href="#"
+              href="https://api.whatsapp.com/send?phone=5583996357960"
+              target="_blank"
               className="flex items-center cursor-pointer text-white font-bold my-10 justify-center h-10 w-40 border-[#333333] border-2 "
             >
               Entre em contato

@@ -10,10 +10,8 @@ import Skills from './components/pages/skills/skills'
 import Footer from './components/footer/footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <div className='App'>
       <Header/>
       <Home/>
       <About/>
@@ -21,7 +19,7 @@ function App() {
       <Services/>
       <Skills/>
       <Footer />
-    </>
+    </div>
   )
 }
 

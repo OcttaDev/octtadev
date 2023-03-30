@@ -28,7 +28,7 @@ function About() {
         </span>
       </div>
 
-      <div className="flex justify-center max-w-[800px] m-auto gap-5 my-10 info">
+      <div className="flex justify-center max-w-[700px] m-auto gap-5 my-10 info">
 
         <div className="flex justify-evenly gap-10" data-aos="flip-left">
             <div className="flex  flex-col items-center justifyi-center gap-1">

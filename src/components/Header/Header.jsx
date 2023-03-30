@@ -26,9 +26,6 @@ function Header() {
         </div>
        
       </div>
-      <div id='sidebar'>
-          
-        </div>
     </div>
   );
 }

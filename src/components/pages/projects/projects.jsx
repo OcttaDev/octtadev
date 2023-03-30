@@ -22,7 +22,7 @@ function Projects() {
       data-aos="fade-up"
     >
       <h1 className="text-white text-3xl">Projetos</h1>
-      <div className="flex gap-5 responsive" data-aos="flip-down">
+      <div className="flex items-center justify-center gap-5 flex-wrap responsive" >
         <Project
           logo={ClinicaLogo}
           titulo="Clinica"
@@ -44,10 +44,6 @@ function Projects() {
           link="https://octtadev.vercel.app/"
           github="https://github.com/OcttaDev/octtadev"
         />
-      </div>
-
-
-      <div className="flex gap-5 responsive" data-aos="flip-up">
         <Project
           logo={Logo}
           titulo="Em desenvolvimento"

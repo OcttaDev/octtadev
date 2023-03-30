@@ -30,7 +30,7 @@ function About() {
 
       <div className="flex justify-center max-w-[700px] m-auto gap-5 my-10 info">
 
-        <div className="flex justify-evenly gap-10" data-aos="flip-left">
+        <div className="flex justify-evenly gap-10 flex-wrap justify-center" data-aos="flip-left">
             <div className="flex  flex-col items-center justifyi-center gap-1">
                 <i className="flex items-center justify-center w-10 h-10 rounded-full bg-[#333333] text-[#00DF5E] p-2">
                   <BsEmojiSmile size={30} />
@@ -45,10 +45,7 @@ function About() {
                 <h1 className="text-lg">E-mail</h1>
                 <p>octtavo9@gmail.com</p>
             </div>
-        </div>
-
-        <div className="flex justify-evenly gap-10" data-aos="flip-right">
-            <div className="flex  flex-col items-center justifyi-center gap-1 ml-1 mr-1">
+            <div className="flex  flex-col items-center justifyi-center gap-1 ">
                 <i className="flex items-center justify-center w-10 h-10 rounded-full bg-[#333333] text-[#00DF5E] p-2">
                   <IoLogoInstagram size={30} />
                 </i>

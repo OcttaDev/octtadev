@@ -1,11 +1,14 @@
+import { useEffect } from "react";
 import Service from "./service"
 import '../../../responsive.css'
-import { IoCodeOutline, IoPhonePortraitOutline } from "react-icons/io5";
+
+
+
+import { IoCodeOutline, IoPhonePortraitOutline, IoDesktopOutline } from "react-icons/io5";
 
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 function Services(){
 
@@ -18,7 +21,8 @@ function Services(){
             <h1 className="text-3xl">Serviços</h1>
             <div className="flex gap-3 responsive" data-aos="flip-left">
                 <Service icon={<IoCodeOutline size={30}/>} title="Criação de Sites" />
-                <Service icon={<IoPhonePortraitOutline size={30} />} title="Sites responsivos"/>
+                <Service icon={<IoPhonePortraitOutline size={30}/>} secundIcon={<IoDesktopOutline size={30}/>} title="Sites responsivos"/>
+                <Service icon={<IoPhonePortraitOutline size={30}/>} title="Desenvolvimento mobile (em formação)" />
             </div>
         </div>
     )

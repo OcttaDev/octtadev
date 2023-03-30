@@ -17,7 +17,7 @@ function Services(){
       }, []);
 
     return(
-        <div className="flex flex-col justify-center items-center gap-10 text-white my-40 responsive" id="services">
+        <div className="flex flex-col justify-center items-center gap-10 text-white my-40 responsive" id="services" data-aos="fade-down">
             <h1 className="text-3xl">Serviços</h1>
             <div className="flex gap-3 flex-wrap responsive">
                 <Service icon={<IoCodeOutline size={30}/>} title="Criação de Sites" />

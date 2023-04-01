@@ -1,9 +1,11 @@
 import Project from "./Project";
 
+import CalculadoraLogo from "../../../assets/logos/calculadoraLogo.png";
 import ClinicaLogo from "../../../assets/logos/clinica.png";
 import LoginLogo from "../../../assets/logos/loginpage.png";
 import PortfolioLogo from "../../../assets/logos/portfolio.png";
 import Logo from "../../../assets/logos/logoInit.png";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -44,9 +46,11 @@ function Projects() {
           github="https://github.com/OcttaDev/octtadev"
         />
         <Project
-          logo={Logo}
-          titulo="Em desenvolvimento"
-          tecnologias={["html", "css", "js"]}
+          logo={CalculadoraLogo}
+          titulo="Calculadora imc"
+          tecnologias={["React-Native", "StyleSheet", "js"]}
+          link="https://github.com/OcttaDev/calculator"
+          github="https://github.com/OcttaDev/calculator"
         />
         <Project
           logo={Logo}

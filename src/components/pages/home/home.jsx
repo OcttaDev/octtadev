@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className="flex flex-col">
       <div
-        className="flex justify-around items-center my-40 flex-wrap"
+        className="flex justify-around items-center my-20 flex-wrap"
         id="home"
         data-aos="fade-up"
       >

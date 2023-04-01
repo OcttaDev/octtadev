@@ -1,7 +1,14 @@
+import { useState } from 'react';
 import '../../responsive.css'
 
 
+
 function Header() {
+  const [sidebar, setSidebar] = useState(false)
+
+  function togglerSidebar() {
+    setSidebar((prevState) => !prevState)
+  }
   return (
     <div>
       <div className="flex justify-around items-center my-4" id='header'>
@@ -24,6 +31,8 @@ function Header() {
               </li>
           </ul>
         </div>
+      </div>
+      <div>
        
       </div>
     </div>

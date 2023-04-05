@@ -1,4 +1,5 @@
 import Avatar from "../../../assets/perfil.jpg";
+import CV from "../../../assets/curriculo/cv.pdf"
 import { useEffect } from "react";
 
 import AOS from "aos";
@@ -29,11 +30,12 @@ function Home() {
               Github
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=5583996357960"
+              href={CV}
               target="_blank"
               className="flex items-center cursor-pointer text-white font-bold my-10 justify-center h-10 w-40 border-[#333333] border-2 "
+              download="Cúrriculo Otavio Augusto"
             >
-              Entre em contato
+              Download CV
             </a>
           </div>
         </div>

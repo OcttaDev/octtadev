@@ -1,5 +1,5 @@
 import Avatar from "../../../assets/perfil.jpg";
-import CV from "../../../assets/curriculo/cv.pdf"
+import CV from "../../../assets/curriculo/cv.pdf";
 import { useEffect } from "react";
 
 import AOS from "aos";
@@ -43,8 +43,10 @@ function Home() {
           <img src={Avatar} alt="" className="w-60 rounded-full" />
         </div>
       </div>
-      <div className="text-white m-auto animate-bounce" >
-        <a href="#about"><IoArrowDownOutline size={30}/></a>
+      <div className="text-white m-auto animate-bounce">
+        <a href="#about">
+          <IoArrowDownOutline size={30} />
+        </a>
       </div>
     </div>
   );

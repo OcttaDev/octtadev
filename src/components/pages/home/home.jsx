@@ -12,7 +12,7 @@ function Home() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col z-3">
       <div
         className="flex justify-around items-center my-20 flex-wrap"
         id="home"

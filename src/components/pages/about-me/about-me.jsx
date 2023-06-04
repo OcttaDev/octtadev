@@ -18,7 +18,7 @@ function About() {
       <div className="flex justify-center text-white text-3xl">
         <h1>Sobre mim</h1>
       </div>
-      <div className="flex justify-center max-w-[700px] m-auto mt-10 text-center">
+      <div className="flex justify-center max-w-[700px] m-auto mt-10 text-center p-6">
         <span className="max-w-[550px]">
           Olá, eu me chamo Otávio e sou desenvolvedor ainda em formação, porém
           já tive experiências ao longo destes anos em que eu escolhi minha
@@ -30,7 +30,7 @@ function About() {
 
       <div className="flex justify-center max-w-[700px] m-auto gap-5 my-10 info">
 
-        <div className="flex justify-evenly gap-10 flex-wrap justify-center">
+        <div className="flex justify-evenly gap-10 flex-wrap">
             <div className="flex  flex-col items-center justifyi-center gap-1">
                 <i className="flex items-center justify-center w-10 h-10 rounded-full bg-[#333333] text-[#00DF5E] p-2">
                   <BsEmojiSmile size={30} />

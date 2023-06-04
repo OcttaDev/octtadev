@@ -1,4 +1,4 @@
-import Avatar from "../../../assets/perfil.jpg";
+import Avatar from "../../../assets/octtadevlogo.png";
 import CV from "../../../assets/curriculo/cv.pdf";
 import { useEffect } from "react";
 

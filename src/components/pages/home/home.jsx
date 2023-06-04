@@ -20,7 +20,7 @@ function Home() {
       >
         <div className="text-white" data-aos="flip-right">
           <h1 className="text-white text-3xl">Olá eu sou o Otávio :)</h1>
-          <p className="text-[#828282]">Desenvolvedor Front-End</p>
+          <p className="text-[#828282]">Desenvolvedor React</p>
           <div className="flex gap-2">
             <a
               href="https://github.com/OcttaDev"

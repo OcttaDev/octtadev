@@ -1,4 +1,4 @@
-import Avatar from "../../../assets/octtadevlogo.png";
+import { banner } from "../../../assets";
 import CV from "../../../assets/curriculo/cv.pdf";
 import { useEffect } from "react";
 
@@ -40,7 +40,7 @@ function Home() {
           </div>
         </div>
         <div data-aos="flip-up">
-          <img src={Avatar} alt="" className="w-60 rounded-full" />
+          <img src={banner} alt="" className="w-60 rounded-full" />
         </div>
       </div>
       <div className="text-white m-auto animate-bounce">

@@ -1,10 +1,6 @@
 import Project from "./Project";
 
-import CalculadoraLogo from "../../../assets/logos/calculadoraLogo.png";
-import ClinicaLogo from "../../../assets/logos/clinica.png";
-import LoginLogo from "../../../assets/logos/loginpage.png";
-import PortfolioLogo from "../../../assets/logos/portfolio.png";
-import Logo from "../../../assets/logos/logoInit.png";
+import * as Logo from "../../../assets"
 
 
 import AOS from "aos";
@@ -25,40 +21,42 @@ function Projects() {
       <h1 className="text-white text-3xl">Projetos</h1>
       <div className="flex items-center justify-center gap-5 flex-wrap " >
         <Project
-          logo={ClinicaLogo}
+          logo={Logo.logo1}
           titulo="Clinica"
           tecnologias={["React-js", "Tailwind-css", "Api"]}
           link="https://monumental-haupia-190f15.netlify.app/"
           github="https://github.com/OcttaDev/clinica-stj"
         />
         <Project
-          logo={LoginLogo}
+          logo={Logo.logo2}
           titulo="Login Screen"
           tecnologias={["React-js", "Style-C", "Firebase"]}
           link="https://github.com/OcttaDev/screen-login"
           github="https://github.com/OcttaDev/screen-login"
         />
         <Project
-          logo={PortfolioLogo}
+          logo={Logo.logo3}
           titulo="Meu PortFólio"
           tecnologias={["React-js", "Tailwind-css", "libs"]}
           link="https://octtadev.vercel.app/"
           github="https://github.com/OcttaDev/octtadev"
         />
         <Project
-          logo={CalculadoraLogo}
+          logo={Logo.logo4}
           titulo="Calculadora imc"
           tecnologias={["React-Native", "StyleSheet", "js"]}
           link="https://github.com/OcttaDev/calculator"
           github="https://github.com/OcttaDev/calculator"
         />
         <Project
-          logo={Logo}
-          titulo="Em desenvolvimento"
-          tecnologias={["html", "css", "js"]}
+          logo={Logo.logo5}
+          titulo="Loja Fabíola Tuppeware"
+          tecnologias={["React", "Tailwind-css", "libs"]}
+          design="Raynne Silva"
+          link="https://fabiola-tuppeware.vercel.app/"
         />
         <Project
-          logo={Logo}
+          logo={Logo.logo_init}
           titulo="Em desenvolvimento"
           tecnologias={["html", "css", "js"]}
         />

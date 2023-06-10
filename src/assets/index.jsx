@@ -8,7 +8,7 @@ import logo5 from "./logos/fabiola-tuppeware.jpeg"
 
 //logo da seção principal
 
-import banner from "./octtadevlogo.png"
+import banner from "./avatar.jpeg"
 
 export {
     logo_init,
